@@ -1,0 +1,37 @@
+/* 
+Properties order:
+1. Position: static, absolute, relative, fixed
+2. Box model: margin, padding, border, content
+3. Font: font-style, font-size
+4. Visual styles: box-shadow, border-radius, gradient
+5. Miscellaneous: other
+*/
+
+:root{
+    /* Colors */
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #ffe9d5;
+    --secondary-blue: #1a9af7;
+    --soft-blue: #e7f5ff;
+    --warm-black: #282623;
+    --black: #201e1c;
+    --grey: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #fff;
+    --linear-bg: linear-gradient(207.8deg, var(--black) 16.69%, var(--bitcoin-orange) 100%);
+    --background: #E5E5E5;
+    /* Fonts */
+    --primary-font: 'DM Sans', sans-serif;
+    --secondary-font: 'Inter', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: var(--primary-font);
+}
